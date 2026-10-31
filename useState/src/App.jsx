@@ -1,5 +1,6 @@
 
 import './App.css'
+import UseStatessss1 from './UsseState/useState1'
 import UseStatessss from './UsseState/UseStates'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
    <>
-   <UseStatessss />
+   {/* <UseStatessss /> */}
+ <UseStatessss1 />
    </>
   )
 }
