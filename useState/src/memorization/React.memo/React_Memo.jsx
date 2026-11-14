@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-const React_Memo = React.memo(({count})=>{
+const React_Memo = React.memo(({number})=>{
  console.log("React_Memo page")
     function SumOfNum(){
         let sum = 0
-        for(let i =0; i<=count;i++){
+        for(let i =0; i<=number;i++){
             sum= sum+i
         }
         return sum
