@@ -3,6 +3,7 @@ import './App.css'
 import { Counter1 } from './Custom Hook/Counter1'
 import { Counter2 } from './Custom Hook/Counter2'
 import { Counter3 } from './Custom Hook/Counter3'
+import UseEffect_Hook from './Day1/UseEffect_Hook'
 import UseState_Hook from './Day1/UseState_Hook'
 import Memorization from './memorization/memorization/Memorization'
 import UseEffectLearning from './UseEffect/UseEffectLearning'
@@ -30,7 +31,8 @@ function App() {
   <Counter2 />
   <Counter3 /> */}
 
-  <UseState_Hook />
+  {/* <UseState_Hook /> */}
+  <UseEffect_Hook />
    </>
   )
 }
