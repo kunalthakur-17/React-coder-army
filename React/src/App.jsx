@@ -3,6 +3,7 @@ import './App.css'
 import { Counter1 } from './Custom Hook/Counter1'
 import { Counter2 } from './Custom Hook/Counter2'
 import { Counter3 } from './Custom Hook/Counter3'
+import UseState_Hook from './Day1/UseState_Hook'
 import Memorization from './memorization/memorization/Memorization'
 import UseEffectLearning from './UseEffect/UseEffectLearning'
 import UseEffectLearning1 from './UseEffect/UseEffectLearning1'
@@ -25,9 +26,11 @@ function App() {
  {/* <Memorization /> */}
  {/* <UseRefHook /> */}
   {/* <UseRef_Hook /> */}
-  <Counter1 />
+  {/* <Counter1 />
   <Counter2 />
-  <Counter3 />
+  <Counter3 /> */}
+
+  <UseState_Hook />
    </>
   )
 }
